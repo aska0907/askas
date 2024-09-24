@@ -7,7 +7,7 @@
 /* Hero Section */
 #hero {
     height: 80vh; /* Full height of the screen */
-    background-image: url('../images/background.jpg'); /* Replace with your image */
+    background-image: url('images/background.jpg'); /* Replace with your image */
     background-size: cover;
     background-position: center;
     position: relative;
