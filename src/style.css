@@ -1,0 +1,268 @@
+.naviDeco{
+    background-color:rgb(209, 229, 247);
+   
+    
+
+}
+/* Hero Section */
+#hero {
+    height: 80vh; /* Full height of the screen */
+    background-image: url('../images/background.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+#hero .container {
+    z-index: 1; /* Ensure content is above the overlay */
+}
+
+#hero h1 {
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#hero p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#hero .btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+}
+
+.btn-outline-light {
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #000;
+}
+
+#services {
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  #services .card {
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  #services .card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+  
+  #services .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  #services .card-text {
+    color: #555;
+  }
+    /* three */
+    #why-choose-us {
+        background-color: #f8f9fa; /* Light background */
+      }
+      
+      .benefit-card {
+        background: white;
+        border-radius: 10px;
+        padding: 30px; /* More padding for spaciousness */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+      }
+      
+      .benefit-card:hover {
+        transform: translateY(-5px); /* Subtle hover effect */
+      }
+      
+      h5 {
+        margin-top: 15px;
+        font-weight: bold;
+        color: #007bff; /* Consistent color for headings */
+      }
+      
+      p {
+        color: #555; /* Darker text for description */
+      }
+      
+      
+  /* four */
+  #testimonials {
+    background-color: #f1f1f1; /* Light background */
+  }
+  
+  .overall-rating {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rating {
+    font-size: 1.2rem;
+    color: gold; /* Color for the stars */
+  }
+  
+  .star {
+    color: gold; /* Gold stars */
+  }
+  
+  blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+   /* five */
+   #how-it-works {
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  h5 {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #007bff; /* Consistent color for headings */
+  }
+  
+  p {
+    color: #555; /* Darker text for description */
+  }
+  
+  .row > div {
+    margin-bottom: 30px; /* Space between items */
+  }
+     
+   /* six and seven */
+   .contact-details {
+    margin-top: 30px;
+    text-align: center; /* Align text to the left */
+  }
+  
+  
+  
+  .detail-item i {
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  
+  
+  footer {
+    background-color: #343a40; /* Dark background for footer */
+  }
+  
+  footer a {
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 80px; /* Adjust this value to move it higher */
+    right: 20px;  /* Horizontal positioning */
+    background-color: black; /* Change background color to black */
+    color: white; /* Icon color */
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 2px 10px rgba(130, 168, 24, 0.2);
+    z-index: 1000; /* Ensure it's on top */
+    display: flex; /* Center the icon */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    border: none; /* Ensure no border line */
+}
+
+.float i {
+    color: rgb(7, 231, 101); /* Ensure the icon itself is white */
+}
+ /*sign up button */
+ .signup-login-btn {
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  font-size: 16px;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.signup-login-btn:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .signup-login-btn {
+      font-size: 14px;
+      padding: 0.75rem 1.5rem;
+  }
+
+  /* Ensure the hamburger is always on the right */
+  .navbar-toggler {
+      margin-left: auto;
+  }
+
+  /* Make offcanvas flex layout to push buttons to bottom */
+  .offcanvas-body {
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+
+
+
+
+/*LAUNDRY.HTML */
+.services-section {
+  background-color: #f0f4f8; /* Light background */
+}
+
+.service-card {
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.service-card h3 {
+  color: #28a745; /* Green color for titles */
+}
+
+.service-card p {
+  font-weight: bold;
+}
+.contact-card {
+  transition: transform 0.3s;
+}
+
+.contact-card:hover {
+  transform: scale(1.05);
+}
